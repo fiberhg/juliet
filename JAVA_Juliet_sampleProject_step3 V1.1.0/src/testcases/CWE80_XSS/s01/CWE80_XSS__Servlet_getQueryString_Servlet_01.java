@@ -37,7 +37,7 @@ public class CWE80_XSS__Servlet_getQueryString_Servlet_01 extends AbstractTestCa
                 String token = tokenizer.nextToken(); /* a token will be like "id=foo" */
                 if(token.startsWith("id=")) /* check if we have the "id" parameter" */
                 {
-                    data = token.substring(3); /* set data to "foo" */
+                    //data = token.substring(3); /* set data to "foo" */
                     break; /* exit while loop */
                 }
             }
