@@ -45,7 +45,7 @@ public class CWE80_XSS__Servlet_PropertiesFile_01 extends AbstractTestCaseServle
                 properties.load(streamFileInput);
 
                 /* POTENTIAL FLAW: Read data from a .properties file */
-                data = properties.getProperty("data");
+                //data = properties.getProperty("data");
             }
             catch (IOException exceptIO)
             {

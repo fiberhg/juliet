@@ -49,7 +49,7 @@ public class CWE80_XSS__Servlet_URLConnection_01 extends AbstractTestCaseServlet
                 /* POTENTIAL FLAW: Read data from a web server with URLConnection */
                 /* This will be reading the first "line" of the response body,
                  * which could be very long if there are no newlines in the HTML */
-                data = readerBuffered.readLine();
+                //data = readerBuffered.readLine();
             }
             catch (IOException exceptIO)
             {

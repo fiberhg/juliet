@@ -54,7 +54,7 @@ public class CWE89_SQL_Injection__database_executeUpdate_01 extends AbstractTest
                 resultSet = preparedStatement.executeQuery();
 
                 /* POTENTIAL FLAW: Read data from a database query resultset */
-                data = resultSet.getString(1);
+                //data = resultSet.getString(1);
             }
             catch (SQLException exceptSql)
             {
